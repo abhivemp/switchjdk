@@ -1,12 +1,8 @@
 @echo off
 ::
 :: RefreshEnv.cmd
-::
-:: Batch file to read environment variables from registry and
-:: set session variables to these values.
-::
-:: With this batch file, there should be no need to reload command
-:: environment every time you want environment changes to propagate
+:: refresh env variables
+
 
 ::echo "RefreshEnv.cmd only works from cmd.exe, please install the Chocolatey Profile to take advantage of refreshenv from PowerShell"
 echo | set /p dummy="Refreshing environment variables from registry for cmd.exe. Please wait..."

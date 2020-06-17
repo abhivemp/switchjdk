@@ -1,8 +1,8 @@
 @echo off
-echo Setting JAVA_HOME
-setx JAVA_HOME "C:\Program Files\Java\jdk1.8.0_221" /M
+echo Setting JAVA_MAIN
+setx JAVA_MAIN "C:\Program Files\Java\jdk1.8.0_221" /m
 refreshenv.cmd
-echo %JAVA_HOME%
+echo %JAVA_MAIN%
 echo Display Java Version
 java -version
 
